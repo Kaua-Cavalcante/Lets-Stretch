@@ -1,7 +1,7 @@
 # Lets-Stretch
 
 <p>Essa aplicação foi feita para ajudar pessoas que ficam muito tempo no computador.
-Você pode visualizar a aplicação <a href="https://lets-stretch.vercel.app">AQUI</a>.</p>
+Você pode visualizar a aplicação <a href="https://letstretch.vercel.app">AQUI</a>.</p>
 
 ### Pré-requisitos
 
