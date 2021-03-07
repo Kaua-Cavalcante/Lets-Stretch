@@ -1,0 +1,37 @@
+.sideBar {
+    position: absolute;
+    
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+    width: 7rem;
+
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    filter: drop-shadow(0px 0px 60px rgba(0, 0, 0, 0.05));
+}
+
+.miniLogo {
+    margin: 2rem 2rem 2rem;
+}
+
+.icons {
+    margin-left: 2.5rem;
+    margin-top: 15rem;
+}
+
+.icons .homeButton{
+    display: block;
+    border: 0;
+    background: rgba(0, 0, 0, 0);
+
+
+}
+
+.icons .rankingButton {
+    border: 0;
+    background: rgba(0, 0, 0, 0);
+    margin-top: 1.75rem;
+
+}
