@@ -1,16 +1,18 @@
 import Head from 'next/head';
 
 import { GetServerSideProps } from 'next';
+import { ChallengesProvider } from '../contexts/ChallengesContext';
 import { ExperienceBar } from "../components/ExperienceBar";
 import { Profile } from "../components/Profile";
 import { CompletedChallenges } from "../components/CompletedChallenges"
 import { Countdown } from "../components/Countdown"
 import { ChallengeBox } from "../components/ChallengeBox";
 import { CountdownProvider } from '../contexts/CountdownContext';
-import { ChallengesProvider } from '../contexts/ChallengesContext';
 import { MenuBar } from '../components/MenuBar';
 
+
 import styles from '../styles/pages/Home.module.css';
+
 
 interface HomeProps {
   level: number;
@@ -35,7 +37,6 @@ export default function Home(props) {
         <aside> 
           <MenuBar />
         </aside>
-
         <CountdownProvider>
 
           <section>
